@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Chattr- All Chats
+{% endblock title %}
+
+{% block content %}
+    {% for chat in object_list %}
+
+
+    	<div class="chat" style="width: 80%; background: rgb(220, 20, 60); box-shadow: 2px 0px 25px 20px #111;">
+    		{% if chat.user.is_superuser %}
+    		    
+
+    		    <small class="chat-user-special"> {{ chat.user }}- Admin </small>
+
+    		
+    		{% else %}
+
+						<small class="chat-user"> {{ chat.user }} </small>    		    
+
+    		{% endif %}
+    		<h5 class="chat-content">{{ chat|linebreaks }}</h5>
+    		<small class="chat-date">{{ chat.posted_at }}</small>
+    	</div><br><br>
+
+    {% empty %}
+    <h1 class="heading">No Chats Yet Be The First To Message!</h1><br>
+
+    {% endfor %}
+    <br><a href="{% url 'chat:new' %}"><button class="btn btn-outline-primary">New Message</button></a>
+{% endblock content %}
