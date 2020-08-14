@@ -53,17 +53,14 @@ li{
   padding: 10px;
 }
 .chat-content {
-  margin-left: 10px; 
-  margin-top: 10px;
+ 	font-family: 'Ubuntu', cursive;
 }
 .chat-user-special{
   color: yellow;
-  font-size: 12px; 
-  margin-left: 10px;
+  font-size: 12px;
 }
 .chat-date{
   font-size: 10px; 
-  margin-left: 10px;
 }
 .chat-user{
   font-size: 12px; 
