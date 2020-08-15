@@ -26,7 +26,7 @@ SECRET_KEY = '6u*h^$w1ielwjw%797zzr8**hmbh@!_mc(f7p@qh6x$e69zufy'
 DEBUG = False
 
 ALLOWED_HOSTS = ['https://ahmishra.pythonanywhere.com/',
-                 'localhost', "127.0.0.1:8000"]
+                 'localhost',   "http://127.0.0.1:8000/"]
 
 
 # Application definition
