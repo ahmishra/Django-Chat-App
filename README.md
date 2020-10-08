@@ -1,10 +1,6 @@
 # Django Chat App
 
 ## User Manual
-#### Through The Web
-It is much easier to access through the web just go to- https://ahmishra.pythonanywhere.com/
-</br></br></br>
-
 
 #### FOR LOCAL USE
 <ul>
