@@ -15,6 +15,7 @@
 
 #### How-To: Run This
 **First In Your Command Line, In The Desired Location `git clone https://github.com/Aryan-Mishra-Python/Django-Chat-App.git` wait for it download**</br></br>
+**If needed set up the environment using command 'python -m venv project name'**</br></br>
 **Navigate Where The File Was Downloaded Open Up The Folder. Then In You Command Line- `python manage.py migrate`**</br></br>
 **Again In Your Command Line- `python manage.py makemigrations`**</br></br>
 **Again In Your Command Line- `python manage.py migrate`**</br></br>
